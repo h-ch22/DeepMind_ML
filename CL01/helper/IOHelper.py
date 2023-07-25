@@ -28,8 +28,8 @@ class IOHelper:
                     w = bbox[box]["w"]
                     h = bbox[box]["h"]
 
-                    center_x_norm = x/1280
-                    center_y_norm = y/1280
+                    center_x_norm = (x + (w/2))/1280
+                    center_y_norm = (y + (h/2))/1280
                     width_norm = w/1280
                     height_norm = h/1280
 
@@ -52,12 +52,6 @@ class IOHelper:
                    "길": 8, "연못": 9, "산": 10, "나무": 11, "꽃": 12, "잔디": 13, "태양": 14}
 
         return CLASSES[class_string]
-
-    def __get_YOLO_bounding_box__(self, x, y, w, h):
-        x1, y1 = x - w / 2, y - h / 2
-        x2, y2 = x + w / 2, y + h / 2
-
-        return x1, y1, x2, y2
 
     def create_yaml(self, TRAIN_PATH, VALID_PATH):
         data = {'train': TRAIN_PATH,

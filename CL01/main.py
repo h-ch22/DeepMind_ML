@@ -1,5 +1,3 @@
-import ultralytics
-
 from helper.IOHelper import IOHelper
 from ultralytics import YOLO
 
