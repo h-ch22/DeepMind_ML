@@ -8,9 +8,7 @@
 |-------|---------|
 |House (CL01)|Whole House, Roof, Wall, Door, Window, Chimney, Smoke, Fence, Road, Pond, Mountain, Tree, Flower, Grasses, Sun|
 |Tree (CL02)|Whole Tree, Pillar, Crown, Branch, Root, Leaves, Flowers, Fruit, Swing, Bird, Cloud, Moon, Stars|
-|Person_Male (CL03)|Whole Person, Head, Face, Eyes, Nose, Mouth, Ears, Hair, Neck, Upper body, Arm, Hand, Leg, Button, Pocket, Snickers, SHoes for male|
-|Person_Female (CL04)|Whole Person, Head, Face, Eyes, Nose, Mouth, Ears, Hair, Neck, Upper body, Arm, Hand, Leg, Button, Pocket, Snickers, SHoes for female|
-
+|Person (CL03)|Whole Person(Male), Whole Person(Female) Head, Face, Eyes, Nose, Mouth, Ears, Hair, Neck, Upper body, Arm, Hand, Leg, Button, Pocket, Snickers, Shoes for male, Shoes for female|
 
 <br>
 
@@ -20,8 +18,7 @@
 |-------|---------|------|--------|
 |House (CL01)|94.8%|97.4%|90.1%|
 |Tree (CL02)|97.3%|98.7%|88.9%|
-|Person_Male (CL03)|Preparing|
-|Person_Female (CL04)|Preparing|
+|Person (CL03)|Training|
 
 <br>
 
