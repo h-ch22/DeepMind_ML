@@ -19,7 +19,7 @@
 |Classes|Precision|mAP-50|mAP50-95|
 |-------|---------|------|--------|
 |House (CL01)|94.8%|97.4%|90.1%|
-|Tree (CL02)|Training|
+|Tree (CL02)|97.3%|98.7%|88.9%|
 |Person_Male (CL03)|Preparing|
 |Person_Female (CL04)|Preparing|
 
